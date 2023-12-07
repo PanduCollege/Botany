@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+  
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+}
+
+.about-section {
+  padding: 50px;
+  text-align: center;
+  background-color: chartreuse; 
+  color: black;
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+.card{
+    width: 300px;
+    margin: 26px;
+}
+
+.card img{
+    height: 370px;
+}
+
+.home {
+    padding-top: 5%;
+}
+
+.home a{
+    text-decoration: none;
+    padding: 5%;
+    color: black;
+    text-shadow: #555;
+    font-size: 20px;
+}
+
+
+h1{
+  text-align: center;
+  
+}
+
+
+.detail{
+  text-align: center;
+
+}
+
+.row{
+  margin-left: 100px;
+}
+
+
+
+
+
+.bg-left {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -2;
+  height: 100vh;
+}
+
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+
+  h1{
+    font-size: 27px;
+  }
+
+  .detail{
+  text-align: center;
+  font-size: 10px;
+  margin: 15px;
+}
+
+.row{
+  margin-left: 0px;
+}
+
+
+}
+
+
+
+</style>
+</head>
+<body>
+  <div class="bg-left">
+    <img src="images/bg-left.svg" alt="" />
+  </div>
+
+
+  
+    <div class="home"><a href="index.html"><b>Home</b></a></div>
+
+        <br><br><br>
+        <h1>Faculty and Staff Directory</h1>
+        <p class="detail">Botany Department - Where Nature Unfolds</p>
+        <br>
+    
+<br>
+<div class="row">
+
+  <div class="column">
+    <div class="card">
+      <img src="https://files.panducollege.org/EMPLOYEE_DP/my%20Image_XxjJii51tT.jpeg" alt="Dr. Riju Kakati Sarma
+      " style="width:100%">
+      <div class="container">
+        <h2>Dr. Riju 
+          <br>Kakati Sarma
+        </h2>
+        <p class="title">Associate Professor & HoD</p>
+        <p><h5>rijusarma2019@gmail.com</h5></p>
+        <p><a href="tel:8472005956"><button class="button">Contact</button></a></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="https://files.panducollege.org/EMPLOYEE_DP/image_FqiMBFhxmw.jpg" alt="Dr.(Mrs.) Dulumoni Saharia" style="width:100%">
+      <div class="container">
+        <h2> Dr.(Mrs.) Dulumoni <br>Saharia</h2>
+        <p class="title">Assistant Professor</p>
+        <p><h5>dulumonisaharia@gmail.com</h5></p>
+        <p><a href="tel:9613064623"><button class="button">Contact</button></a></p>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="column">
+    <div class="card">
+      <img src="https://files.panducollege.org/EMPLOYEE_DP/FB_IMG_1511027663198_A0Mh1ith4j.jpg" alt="Mr. Mantu Mahanta
+      " style="width:100%">
+      <div class="container">
+        <h2>Mr. Mantu   <br>Mahanta
+        </h2>
+        <p class="title">Assistant Professor</p>
+        <p><h5>m.mahanta09@gmail.com</h5></p>
+        <p><a href="tel:9864376167"><button class="button">Contact</button></a></p>
+      </div>
+    </div>
+  </div>
+
+ <div class="column">
+    <div class="card">
+  <img src="https://files.panducollege.org/EMPLOYEE_DP/20220326_142115_9LBmzo8w16.jpg" alt="Dr. Snehashish Dutta
+      " style="width:100%">
+      <div class="container">
+        <h2>Dr. Snehashish 
+          <br>Dutta
+        </h2>
+        <p class="title">Assistant Professor</p>
+        <p><h5>snehashish_dutta@rediffmail.com</h5></p>
+        <p><a href="tel:9401601857"><button class="button">Contact</button></a></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+  <img src="https://files.panducollege.org/EMPLOYEE_DP/Profile%20Pics%20-%20Copy_TUdGEyYQHn.jpg" alt="DR. PRAMOD MEDHI MSc, PhD, FEHT
+      " style="width:100%">
+      <div class="container">
+        <h2>DR. PRAMOD MEDHI  
+          <br>MSc, PhD, FEHT
+        </h2>
+        <p class="title">Assistant Professor</p>
+        <p><h5>pramodmedhi@yahoo.com</h5></p>
+        <p><a href="tel:7635810078"><button class="button">Contact</button></a></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+  <img src="https://files.panducollege.org/EMPLOYEE_DP/Maina%20Borah_fbnPclSC26.jpg" alt="Dr. Maina Borah
+      " style="width:100%">
+      <div class="container">
+        <h2>Dr. Maina  
+          <br>Borah
+        </h2>
+        <p class="title">Assistant Professor</p>
+        <p><h5>mainaborah85@gmail.com</h5></p>
+        <p><a href="tel:9508161539"><button class="button">Contact</button></a></p>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
